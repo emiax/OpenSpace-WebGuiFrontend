@@ -9,7 +9,7 @@ const TOPIC_TYPES = {
   set: 'set',
   subscribe: 'subscribe',
   time: 'time',
-  trigger: 'trigger',
+  trigger: 'trigger'
 };
 
 const SUBSCRIPTION_EVENTS = {

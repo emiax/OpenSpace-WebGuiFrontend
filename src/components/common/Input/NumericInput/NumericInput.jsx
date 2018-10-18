@@ -61,6 +61,7 @@ class NumericInput extends Component {
     const { left, right } = event.currentTarget.getBoundingClientRect();
     const { clientX } = event;
     const hoverHint = clamp((clientX - left) / (right - left), 0, 1);
+
     this.setState({ hoverHint });
   }
 

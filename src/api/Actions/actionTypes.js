@@ -17,6 +17,10 @@ export const actionTypes = {
   onCloseConnection: 'CONNECTION_ON_CLOSE',
   changeConnectionWait: 'CONNECTION_CHANGE_WAIT',
 
+  subscribeToShortcuts: 'SHORTCUTS_SUBSCRIBE',
+  unsubscribeToShortcuts: 'SHORTCUTS_UNSUBSCRIBE',
+  initializeShortcuts: 'SHORTCUTS_INITIALIZE',
+
   // action types for transfer function editor
   addTransferFunction: 'TRANSFERFUNCTION_ADD_TRANSFER_FUNCTION',
   addEnvelope: 'TRANSFERFUNCTION_ADD_ENVELOPE',

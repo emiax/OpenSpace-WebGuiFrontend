@@ -12,7 +12,7 @@ class ScenePane extends Component {
   }
 
   render() {
-    const { nodes } = this.props;
+    const { nodes, shortcuts } = this.props;
     return (
       <Pane title="Scene" closeCallback={this.props.closeCallback}>
         { (nodes.length === 0) && (
@@ -47,8 +47,11 @@ const mapStateToProps = (state) => {
     nodes = [...nodes, ...node.subowners];
   });
 
+  const shortcuts = state.shortcuts;
+
   return {
     nodes,
+    shortcuts
   };
 };
 

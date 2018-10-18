@@ -179,7 +179,6 @@ class Time extends Component {
         </div>
       );
     }
-
     return (
       <div className={styles.element}>
         { inner }{after}

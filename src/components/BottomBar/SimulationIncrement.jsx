@@ -7,6 +7,7 @@ import Row from '../common/Row/Row';
 import Select from '../common/Input/Select/Select';
 import { round10 } from '../../utils/rounding';
 import ScaleInput from '../common/Input/ScaleInput/ScaleInput';
+import SyntheticEvent from 'react-dom/';
 
 const UpdateDelayMs = 1000;
 // Throttle the delta time updating, so that we don't accidentally flood
